@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docement</title>
+</head>
+<body>
+    <h2>Personal Details</h2>
+    <form action="/submit" method="post">
+        <label for="firstname">First Name:</label><br>
+        <input type="text" id="firstname" name="firstname" required><br><br>
+
+        <label for="lastname">Last Name:</label><br>
+        <input type="text" id="lastname" name="lastname" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="gender">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label><br><br>
+
+        <label for="city">City:</label><br>
+        <select id="city" name="city" required>
+            <option value="amman">Amman</option>
+            <option value="irbid">Irbid</option>
+            <option value="zarqa">Zarqa</option>
+        
+        </select><br><br>
+
+        <button type="submit">Subscribe</button>
+    </form>
+</body>
+</html>
